@@ -1,0 +1,266 @@
+/* Laptop Device :1200px. */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .header-space {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .header-right .bar, .header-right .search {
+        margin-left: 29px;
+    }
+    .theme-3 .slider-carousel::before {
+        width: 570px;
+    }
+
+}
+
+
+/* Normal desktop :992px. .....lg device */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-space {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .single-slider {
+        min-height: 860px;
+    }
+    .slider-text h2 {
+        font-size: 60px;
+    }
+    .section-title h2 {
+        font-size: 50px;
+    }
+    .pricing-wrapper {
+        padding: 60px 40px;
+    }
+    .blog-heading h4 {
+        font-size: 20px;
+    }
+    .blog-meta li img {
+        margin-right: 10px;
+    }
+    
+    .footer-signup-text h2 {
+        font-size: 28px;
+    }
+    .signup-info span {
+        margin-bottom: 20px;
+    }
+    .footer-top-btn .btn {
+        padding: 20px 45px;
+        width: 100%;
+    }
+    .footer-address-bar {
+        padding: 25px;
+    }
+    .footer-orange-btn .btn {
+        padding: 20px 12px;
+        width: 100%;
+    }
+    .choose-content p {
+        padding: 0px 30px;
+    }
+    .header-right .bar, .header-right .search {
+        margin-left: 25px;
+    }
+    .theme-2 .slider-text h2, .theme-3 .slider-text h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .theme-2 .slider-text {
+        margin-top: 250px;
+    }
+    .section-title-white h2 {
+        font-size: 40px;
+    }
+    .latest-blog-content {
+        padding: 30px 0px 0 0px;
+    }
+    .breadcrumb-area {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    .team-img img {
+        width: 100%;
+    }
+    .team-content {
+        padding: 20px;
+        padding-bottom: 20px;
+    }
+    .single-faq-box {
+        padding: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media only screen and (max-width: 991px) {
+    .header-space {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .single-slider {
+        min-height: 560px;
+    }
+    .slider-text {
+        padding-top: 130px;
+    }
+    .slider-text span {
+        margin-bottom: 20px;
+    }
+    .slider-text h2 {
+        font-size: 40px;
+    }
+    .domain-list li {
+        padding: 12px 20px;
+    }
+    .choose-content span:after {display: none;}
+    .latest-blog-content {
+        padding: 20px 0;
+    }
+    .footer-right-box {
+        padding-left: 0;
+    }
+    .theme-2 .top-list li a {
+        margin-right: 10px;
+    }
+    .theme-2 .header-cta li a {
+        margin-left: 10px;
+    }
+    .theme-2 .top-list li:last-child a {
+        margin: 0;
+    }
+    
+    .theme-2 .header-cta li:first-child a {
+        margin: 0;
+    }
+    .theme-2 .slider-text h2, .theme-3 .slider-text h2 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+    .slider-bottom-img img {
+        display: none;
+    }
+    .theme-2 .slider-text {
+        margin-top: 150px;
+    }
+    .pricing-wrapper.theme-2 {
+        padding: 30px;
+    }
+    .feature-content {
+        float: left;
+    }
+    .theme-3 .slider-carousel:before {
+        display: none;
+    }
+    .theme-3 .slider-text {
+        margin-top: 0;
+    }
+    .theme-3 .single-slider {
+        min-height: 500px;
+    }
+    .testimonial-left-bg img {
+        width: auto;
+    }
+    .team-img img {
+        width: 100%;
+    }
+    .team-content {
+        padding: 20px;
+        padding-bottom: 20px;
+    }
+    .breadcrumb-area {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media only screen and (max-width: 767px) {
+    .header-space {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .slider-text h2 {
+        font-size: 25px;
+    }
+    .slider-btn .btn {
+        margin-bottom: 25px;
+    }
+    .slider-bottom-img {
+        bottom: 40px;
+    }
+    .domain-search {
+        padding: 0;
+    }
+    .domain-search .btn {
+        position: relative;
+        width: 100%;
+        right: 0;
+    }
+    .domain-select {
+        display: none;
+    }
+    .domain-list li {
+        padding: 12px 25px;
+        margin-bottom: 10px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .service-content p {
+        padding: 0;
+    }
+    .plan-details p {
+        padding: 15px 50px;
+    }
+    .faq-area img {
+        margin-left: 0;
+        width: 100%;
+    }
+    .section-title-white h2 {
+        font-size: 30px;
+    }
+    .choose-content p {
+        padding: 0;
+    }
+    .footer-signup-text h2 {
+        font-size: 26px;
+    }
+    .theme-2 .slider-text {
+        margin-top: 30px;
+    }
+    .theme-2 .slider-text h2, .theme-3 .slider-text h2 {
+        font-size: 35px;
+    }
+    .testimonial-left-bg img {
+        width: 100%;
+    }
+    .theme-2 .header-top {
+        display: none;
+    }
+    .about-us-wrapper {
+        padding: 40px 20px;
+    }
+    .section-header h2 {
+        font-size: 30px;
+    }
+    .breadcrumb-text h1 {
+        font-size: 60px;
+    }
+    .login-content {
+        padding: 20px;
+    }
+    .privacy-area-wrapper {
+        padding: 25px 20px 25px 20px;
+    }
+    .domain-box {
+        padding: 50px 10px;
+    }
+ 
+}
+ 
+
